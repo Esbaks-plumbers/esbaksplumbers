@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Esbaks Plumbers</title>
+</head>
+<body>
+  <div class="header">
+      <img src="imgs/my logo.png" style="width: 30%" height="27%" alt="logo">
+      <h1>Welcome to esbaks Plumbers</h1> 
+  </div> 
+  <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Our work.html">Our Work</a>
+      <a href="location.html">Location</a>
+      <a href="contact.html">Contact</a>
+      <form class="example" action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i>search</button>  
+        <a href="#" class="fa fa-facebook">
+          <img src="imgs/facebook1.png" style="width: 40px;" alt="facebook">
+        </a>
+        <a href="#" class="fa fa-whatsapp">
+          <img src="imgs/whatsapp.png" style="width: 40px;" alt="whatsapp">
+        </a>
+        <a href="#" class="fa fa-instagram">
+          <img src="imgs/instagram.png" style="width: 40px;" alt="instagram">
+        </a>
+        <button onclick="document.getElementById('id01').
+        style.display='block'" style="width: auto">SignUp</button>
+        <div id="id01" class="modal">
+          
+          <span onclick="document.getElementById('id01').style.display=none" 
+          class="close" title="close modal">&times;</span>
+          <div class="container">
+            <form class="form-horizontal" action="https://www.esbaksplumbers.com/action_page.php">
+              <div class="form group">
+                <label class="control-label col-sm-2" for="fname">Name</label>
+                <div class="dol-sm-10">
+                  <input type="Name:" class="form-control" id="fname" placeholder="Name" name="fname">
+                </div><br>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email</label>
+                  <input type="Email:" class="form-control" id="email" placeholder="Enter Email" name="email">
+                </div><br>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="pwd">Password</label>
+                  <input type="Password:" class="form-control" id="pwd" placeholder="Enter Password" name="Pwd">
+                </div>
+              </div>
+            </form>
+          </div>
+              <p>By creating an account, you agree to our <a href="#" 
+                style="color:dodgerblue">Terms & conditions</a>.</p>
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('id01')
+                  .style.display='none'" class="cancelbtn">Cancel</button>
+                  <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+     
+      
+</body>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</html>

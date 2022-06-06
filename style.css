@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    padding: 10%;
+    text-align: center;
+    background-image: url("file:///C:/Users/USER/Desktop/my%20work/final%20web/imgs/pexels-fadly-syahab-773607.jpg");
+    background-size: contain;
+}
+.header h1{
+    color: aliceblue;
+}
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+.topnav a {
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #1303e9;
+    color: white;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: transparent;
+    color: white;
+  }
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: grey;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media screen and (max-width: 600px) {
+    body {
+        color: #f2f2f2;
+    }
+}
+  *,*::before, *::after{
+    box-sizing: inherit;
+  }
+  .column {
+      float: left;
+      width: 33.3;
+      margin-bottom: 16px;
+      padding: 0 8px;
+  }
+  .card {
+      box-shadow: 0 4px 8px 0 rgba (0,0,0,0.2);
+      margin: 8px;
+  }
+  .about-section {
+      padding:50px;
+      text-align: center;
+      background-image: url("file:///C:/Users/USER/Desktop/my%20work/final%20web/imgs/darkwood.jpg");
+      color: white;
+      background-size: contain;
+  }
+  .container::after, .row::after{
+      content: none;
+      clear: both;
+      display: table;
+  }
+  .title {
+      color:rgb(250, 12, 12);
+  }
+  .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 5px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: 50%;
+  }
+  .button:hover {
+    background-color: rgb(105, 102, 228);
+  }
+  @media screen and(max-width: 600px) {
+.column {
+    width:10%;
+    display:block;                        
+      
+}
+  }
+  .column {
+      float: center;
+      width: 30%;
+      padding: 0 10px;
+  }
+  .row {margin: 0 -5px;}
+  .row::after{
+      content: "";
+      display: table;
+      clear: both;
+  }
+  @media  screen and (max-width: 600px) {
+     .column{
+         width: 20%;
+         display: block;
+         margin-bottom: 20px;
+     } 
+  }
+  .contact {
+      color: #1303e9;
+  }
+  .card{
+      box-shadow: 0 4px 8px 0 rgba (0, 0, 0.2);
+      padding:10px;
+      text-align: center;
+      background-color: #b1adad;
+  }
+  input[type=text], select, textarea{
+      width: 100%;
+      padding: 12px; 
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: verticle;
+  }
+  input[type=send]{
+      background: #9bdf9d;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  input[type=send]:hover{
+      background-color: #45a049;
+  }
+  .container{
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+  }
+  .work-section{
+      padding: 30px;
+      text-align: center;
+      font-family: monotype corsiva;
+      color: #f2f2f2;
+      background-image: url("file:///C:/Users/USER/Desktop/my%20work/final%20web/imgs/best.jpg");
+      background-size: contain;
+      background-color: #45a049;
+       
+      }
+      .container::after, .row::after{
+        content: none;
+        clear: both;
+        display: table;
+    }
+    .title {
+        color:rgb(250, 12, 12);
+    }
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 5px;
+        color: white;
+        background-color: rgb(240, 23, 23);
+        text-align: center;
+        cursor: 50%;}
+      .work-section {
+          float: center;
+          width: 100%;
+          margin-bottom: 2px;
+          padding: 50px 18px;
+      }
+      .fa-facebook{
+          padding: 40px;
+          font-size: 10px;
+          width: 80px;
+          text-align: right;
+          text-decoration: none;
+          margin: 5px 2px;
+      } 
+      .fa:hover {
+          opacity: 0.7;
+      }
+      .fa-twitter{
+          text-align: right;
+      }
+      input[type=text], input[type=password]{
+          width: 200%;
+          padding: 15px;
+          margin: 5px 0 22px 0;
+          display: inline-block;
+          border: none;
+          background: #83919c;
+      }
+      input[type=text]:focus, input[type=password]:focus{
+          background-color: rgb(202, 190, 190);
+          outline: none;
+      }
+      button{
+          background-color: #04aa6d;
+          color: rgb(252, 8, 8);
+          padding: 4px 10px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 50%;
+          opacity: 0.9;
+      }
+      .button:hover{
+          opacity: 1;
+      }
+      .cancelbtn{
+          padding: 14px 20px;
+          background-color: #f44336;
+      }
+      .cancelbtn, .signupbtn {
+          float: left;
+          width: 50%;
+      }
+      .container {
+          padding: 100px;
+      }
+      .modal{
+          display: none;
+          position: fixed;
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: #474e5d;
+          padding-top: 50px;
+      }
+      .modal-content{
+          background-color: #fefefe;
+          margin: 5% auto 15% auto;
+          border: 1px solid #888;
+          width: 80%;
+      }
+      hr{
+          border: 1px solid #f1f1f1;
+          margin-bottom: 25px;
+      }
+      .close{
+          position: absolute;
+          right: 35px;
+          top: 15px;
+          font-size: 40px;
+          font-weight: bold;
+          color: #7e0606;
+      }
+      .close:hover, .close:focus {
+          color: #f44336;
+          cursor: pointer;
+      }
+      @media screen and (max-width: 300px){
+          .cancelbtn, .signupbtn{
+              width: 30%;
+          }
+      }
